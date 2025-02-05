@@ -3,10 +3,10 @@
 %}
 
 %%
-\n  {n++;}
-\t  {t++;}
-" "  {s++;}
-.  {c++;}
+\n  {n++;}  // newline count
+\t  {t++;}  // tabspace count
+" "  {s++;} // space count
+.  {c++;}   // anything else ( character )
 %%
 
 int yywrap(){
