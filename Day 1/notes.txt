@@ -1,0 +1,9 @@
+how to compile?
+
+lex <programFile.l> 
+gcc lex.yy.c
+./a.out
+
+<input>
+
+to terminate use ctrl+d
